@@ -57,8 +57,8 @@ SpringAI提供了以下功能：
 This feature set lets you implement common use cases, such as “Q&A over your documentation” or “Chat with your documentation.”   
 这个功能集合让你实现常见的用户案例，例如“关于你的文档的问答”或“与你的文档聊天”。   
 
-The concepts section provides a high-level overview of AI concepts and their representation in Spring AI.   
-这个概念章节提供了一个AI概念和它们在Spring AI中的表示的高级概述。
+The [concepts section](https://docs.spring.io/spring-ai/reference/concepts.html) provides a high-level overview of AI concepts and their representation in Spring AI.   
+[概念章节](./AI%20Concepts.md)提供了一个AI概念和它们在Spring AI中的表示的高级概述。
 
 The Getting Started section shows you how to create your first AI application. Subsequent sections delve into each component and common use cases with a code-focused approach.   
 入门章节给你展示了如何创建你的第一个AI应用。随后的章节以代码为中心的方式深入探讨每个组件和常见的使用案例。
