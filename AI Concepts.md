@@ -24,4 +24,11 @@ What sets models like GPT apart is their pre-trained nature, as indicated by the
 
 ## Prompts
 ## 提示词
+Prompts serve as the foundation for the language-based inputs that guide an AI model to produce specific outputs. For those familiar with ChatGPT, a prompt might seem like merely the text entered into a dialog box that is sent to the API. However, it encompasses much more than that. In many AI Models, the text for the prompt is not just a simple string.   
+提示词作为基于语言的的输入基础，这些输入指导AI模型产生特定的输出。对于那些熟悉ChatGPT的人来说，一个提示词似乎看起来仅仅像文本输入到一个对话框中并发给API。然而，它包含的东西远远不止这些。在许多AI模型中，提示词的文本不仅仅是一个简单的字符串。
 
+
+ChatGPT’s API has multiple text inputs within a prompt, with each text input being assigned a role. For example, there is the system role, which tells the model how to behave and sets the context for the interaction. There is also the user role, which is typically the input from the user.   
+
+
+Crafting effective prompts is both an art and a science. ChatGPT was designed for human conversations. This is quite a departure from using something like SQL to "ask a question". One must communicate with the AI model akin to conversing with another person.   
