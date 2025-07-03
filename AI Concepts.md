@@ -29,6 +29,6 @@ Prompts serve as the foundation for the language-based inputs that guide an AI m
 
 
 ChatGPT’s API has multiple text inputs within a prompt, with each text input being assigned a role. For example, there is the system role, which tells the model how to behave and sets the context for the interaction. There is also the user role, which is typically the input from the user.   
-
+ChatGPT的API在一个提示词中有多个文本输入，每一个文本输入都被分配一个角色。例如，这里有一个系统角色，它告诉模型如何行为并为交互设置上下文。这里还一个用户角色，它通常是来自用户的输入。
 
 Crafting effective prompts is both an art and a science. ChatGPT was designed for human conversations. This is quite a departure from using something like SQL to "ask a question". One must communicate with the AI model akin to conversing with another person.   
