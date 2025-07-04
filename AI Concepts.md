@@ -32,3 +32,7 @@ ChatGPT’s API has multiple text inputs within a prompt, with each text input b
 ChatGPT的API在一个提示词中有多个文本输入，每一个文本输入都被分配一个角色。例如，这里有一个系统角色，它告诉模型如何行为并为交互设置上下文。这里还一个用户角色，它通常是来自用户的输入。
 
 Crafting effective prompts is both an art and a science. ChatGPT was designed for human conversations. This is quite a departure from using something like SQL to "ask a question". One must communicate with the AI model akin to conversing with another person.   
+精心设计的有效的提示词既是一门艺术也是一门科学。ChatGPT被设计用于人类对话。这与使用像SQL的方式“提出问题”有很大的差异。人们必须与类似于与另一个人交谈的方式与AI模型进行交流。
+
+Such is the importance of this interaction style that the term "Prompt Engineering" has emerged as its own discipline. There is a burgeoning collection of techniques that improve the effectiveness of prompts. Investing time in crafting a prompt can drastically improve the resulting output.
+这种交互方式的重要性如此之高，以至于“提示词工程“这个术语已经成为了一个独立的学科。这是一系列迅速发展的技术，这些技术提高了提示词的有效性。花费时间在构想一个提示词能极大地改善结果输出。
