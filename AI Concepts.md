@@ -36,3 +36,19 @@ Crafting effective prompts is both an art and a science. ChatGPT was designed fo
 
 Such is the importance of this interaction style that the term "Prompt Engineering" has emerged as its own discipline. There is a burgeoning collection of techniques that improve the effectiveness of prompts. Investing time in crafting a prompt can drastically improve the resulting output.
 这种交互方式的重要性如此之高，以至于“提示词工程“这个术语已经成为了一个独立的学科。这是一系列迅速发展的技术，这些技术提高了提示词的有效性。花费时间在构想一个提示词能极大地改善结果输出。
+
+Sharing prompts has become a communal practice, and there is active academic research being done on this subject. As an example of how counter-intuitive it can be to create an effective prompt (for example, contrasting with SQL), a recent research paper found that one of the most effective prompts you can use starts with the phrase, “Take a deep breath and work on this step by step.” That should give you an indication of why language is so important. We do not yet fully understand how to make the most effective use of previous iterations of this technology, such as ChatGPT 3.5, let alone new versions that are being developed.
+分享提示词已经成为一种社区实践，并且在这个主题上有活跃的学术研究。作为一个例子，说明创建一个有效的提示词是多么的反直觉（例如：与SQL形成对比），一个最近的研究论文发现，你可以使用的最有效的提示词之一是以“深呼并一步一步地工作“开始。这应该给你了一个提示为什么语言如此的重要。我们还没有完全理解如何最有效地使用这个技术的早期迭代版本，例如ChatGPT 3.5，更不用说正在开发的新版本了。
+
+### Prompt Templates
+### 提示词模板
+Creating effective prompts involves establishing the context of the request and substituting parts of the request with values specific to the user’s input.   
+创建有效的提示词涉及到建立请求上下文和用用户输入的特定的值替换请求的部分内容。   
+This process uses traditional text-based template engines for prompt creation and management. Spring AI employs the OSS library StringTemplate for this purpose.   
+这个流程使用传统的基于文本的模板引擎来创建和管理提示词。Spring AI使用OSS库`StringTemplate`来实现这个目的。   
+For instance, consider the simple prompt template:   
+这是一个实例，思考这个简单的提示词模板：
+```java
+Tell me a {adjective} joke about {content}.
+```
+
