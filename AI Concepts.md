@@ -52,3 +52,9 @@ For instance, consider the simple prompt template:
 Tell me a {adjective} joke about {content}.
 ```
 
+In Spring AI, prompt templates can be likened to the "View" in Spring MVC architecture. A model object, typically a java.util.Map, is provided to populate placeholders within the template. The "rendered" string becomes the content of the prompt supplied to the AI model.   
+在Spring AI中，提示词模板可以类比于Spring MVC架构中的“View”。一个模型对象，通常是`java.util.Map`，被提供来填充模板中的占位符。被“rendered”的字符串成为提供给AI模型的提示词内容。
+
+There is considerable variability in the specific data format of the prompt sent to the model. Initially starting as simple strings, prompts have evolved to include multiple messages, where each string in each message represents a distinct role for the model.   
+这是发送给模型的提示词的具体数据格式有相当大的变化。提示词最初以简单字符串形式存在，提示词已经发展包含多个消息，在每个消息中的每个字符串为模型表示一个不同的角色。
+
