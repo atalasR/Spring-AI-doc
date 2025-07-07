@@ -58,3 +58,26 @@ In Spring AI, prompt templates can be likened to the "View" in Spring MVC archit
 There is considerable variability in the specific data format of the prompt sent to the model. Initially starting as simple strings, prompts have evolved to include multiple messages, where each string in each message represents a distinct role for the model.   
 这是发送给模型的提示词的具体数据格式有相当大的变化。提示词最初以简单字符串形式存在，提示词已经发展包含多个消息，在每个消息中的每个字符串为模型表示一个不同的角色。
 
+## Embeddings
+## 向量化
+
+Embeddings are numerical representations of text, images, or videos that capture relationships between inputs.   
+Embeddings是文本、图片或视频的数字化表示，这些表示捕捉了输入之间的关系。
+
+Embeddings work by converting text, image, and video into arrays of floating point numbers, called vectors. These vectors are designed to capture the meaning of the text, images, and videos. The length of the embedding array is called the vector’s dimensionality.   
+Embeddings的工作是通过将文本、图片和视频转换成浮点数组，这些数组成为向量。这些向量被设计用来记录文本、图片和视频的含义。embedding数组的长度被成为向量维度。
+
+By calculating the numerical distance between the vector representations of two pieces of text, an application can determine the similarity between the objects used to generate the embedding vectors.   
+通过计算两个文本表现的向量的值之间的数字距离，一个应用可以确定生成embedding向量的对象之间的相似性。   
+![spring-ai-concepts-embeddings](./images/spring-ai-embeddings.jpg)
+
+
+As a Java developer exploring AI, it’s not necessary to comprehend the intricate mathematical theories or the specific implementations behind these vector representations. A basic understanding of their role and function within AI systems suffices, particularly when you’re integrating AI functionalities into your applications.   
+作为探索AI的Java开发者，无需理解这些向量表示背后复杂的数学理论或具体实现。对AI系统里面的角色和功能有一个基本的理解就足够，特别是当你将AI功能集成到你的应用是。   
+
+Embeddings are particularly relevant in practical applications like the Retrieval Augmented Generation (RAG) pattern. They enable the representation of data as points in a semantic space, which is akin to the 2-D space of Euclidean geometry, but in higher dimensions. This means just like how points on a plane in Euclidean geometry can be close or far based on their coordinates, in a semantic space, the proximity of points reflects the similarity in meaning. Sentences about similar topics are positioned closer in this multi-dimensional space, much like points lying close to each other on a graph. This proximity aids in tasks like text classification, semantic search, and even product recommendations, as it allows the AI to discern and group related concepts based on their "location" in this expanded semantic landscape.
+
+
+
+You can think of this semantic space as a vector.
+
