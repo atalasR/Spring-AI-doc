@@ -76,7 +76,7 @@ As a Java developer exploring AI, it’s not necessary to comprehend the intrica
 作为探索AI的Java开发者，无需理解这些向量表示背后复杂的数学理论或具体实现。对AI系统里面的角色和功能有一个基本的理解就足够，特别是当你将AI功能集成到你的应用是。   
 
 Embeddings are particularly relevant in practical applications like the Retrieval Augmented Generation (RAG) pattern. They enable the representation of data as points in a semantic space, which is akin to the 2-D space of Euclidean geometry, but in higher dimensions. This means just like how points on a plane in Euclidean geometry can be close or far based on their coordinates, in a semantic space, the proximity of points reflects the similarity in meaning. Sentences about similar topics are positioned closer in this multi-dimensional space, much like points lying close to each other on a graph. This proximity aids in tasks like text classification, semantic search, and even product recommendations, as it allows the AI to discern and group related concepts based on their "location" in this expanded semantic landscape.
-向量化在实际应用中尤其相关，例如Retrieval Augmented Generation (RAG) 模式。向量化使数据能够表示为语义空间中的点，这种语义空间类似于欧几里得几何中的二维空间，但维度更高。这意味着，就像欧几里得几何中平面上的点会根据坐标的不同而有近有远一样，在语义空间中，点的接近度反映了意义的相似性。
+向量化在实际应用中尤其相关，例如Retrieval Augmented Generation (RAG) 模式。向量化使数据能够表示为语义空间中的点，这种语义空间类似于欧几里得几何中的二维空间，但维度更高。这意味着，就像欧几里得几何中平面上的点会根据坐标的不同而有近有远一样，在语义空间中，点的接近度反映了意义的相似性。关于类似主题的句子被放置在多维空间中，就像图中的点彼此靠近一样。这种接近性有助于文本分类、语义搜索甚至产品推荐等任务，因为它允许AI根据它们在扩展的语义空间中的“位置”来辨别和分组相关概念。
 
 You can think of this semantic space as a vector.
 
