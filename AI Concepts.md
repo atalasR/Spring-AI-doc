@@ -85,5 +85,5 @@ You can think of this semantic space as a vector.
 ## Tokens
 ## 令牌
 Tokens serve as the building blocks of how an AI model works. On input, models convert words to tokens. On output, they convert tokens back to words.   
-
+令牌服务于AI模型工作的构建块。在输入时，模型将单词转换为令牌。在输出时，它们将令牌转换回单词。
 
