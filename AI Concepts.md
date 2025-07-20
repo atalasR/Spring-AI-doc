@@ -85,5 +85,10 @@ You can think of this semantic space as a vector.
 ## Tokens
 ## 令牌
 Tokens serve as the building blocks of how an AI model works. On input, models convert words to tokens. On output, they convert tokens back to words.   
-令牌服务于AI模型工作的构建块。在输入时，模型将单词转换为令牌。在输出时，它们将令牌转换回单词。
+令牌服务于AI模型工作的构建块。在输入时，模型将单词转换为令牌。在输出时，它们将令牌转换回单词。   
 
+In English, one token roughly corresponds to 75% of a word. For reference, Shakespeare’s complete works, totaling around 900,000 words, translate to approximately 1.2 million tokens.
+在英文中，一个令牌大致对应一个单词的75%。作为参考，莎士比亚的完整作品，总共有大约900,000个单词，翻译成大约120万个令牌。
+
+Perhaps more important is that Tokens = Money. In the context of hosted AI models, your charges are determined by the number of tokens used. Both input and output contribute to the overall token count.
+也许更重要的是令牌=钱。在托管的AI模型中，你的费用是由使用的令牌数量决定的。输入和输出都对总令牌数有贡献。
