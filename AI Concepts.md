@@ -91,4 +91,11 @@ In English, one token roughly corresponds to 75% of a word. For reference, Shake
 在英文中，一个令牌大致对应一个单词的75%。作为参考，莎士比亚的完整作品，总共有大约900,000个单词，翻译成大约120万个令牌。
 
 Perhaps more important is that Tokens = Money. In the context of hosted AI models, your charges are determined by the number of tokens used. Both input and output contribute to the overall token count.
-也许更重要的是令牌=钱。在托管的AI模型中，你的费用是由使用的令牌数量决定的。输入和输出都对总令牌数有贡献。
+也许更重要的是令牌=钱。在托管的AI模型中，你的费用是由使用的令牌数量决定的。输入和输出都对总令牌数有贡献。   
+
+Also, models are subject to token limits, which restrict the amount of text processed in a single API call. This threshold is often referred to as the "context window". The model does not process any text that exceeds this limit.
+也是，模型受到令牌限制，这限制了在单个API调用中处理的文本量。这个阈值通常被称为“上下文窗口”。模型不会处理超过这个限制的任何文本。
+
+For instance, ChatGPT3 has a 4K token limit, while GPT4 offers varying options, such as 8K, 16K, and 32K. Anthropic’s Claude AI model features a 100K token limit, and Meta’s recent research yielded a 1M token limit model.
+例如，ChatGPT3有一个4K令牌限制，而GPT4提供了不同的选项，如8K、16K和32K。Anthropic的Claude AI模型具有100K令牌限制，而Meta最近的研究产生了一个1M令牌限制的模型。
+
