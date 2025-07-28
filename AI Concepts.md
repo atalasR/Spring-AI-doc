@@ -102,3 +102,8 @@ For instance, ChatGPT3 has a 4K token limit, while GPT4 offers varying options, 
 To summarize the collected works of Shakespeare with GPT4, you need to devise software engineering strategies to chop up the data and present the data within the model’s context window limits. The Spring AI project helps you with this task.   
 总结一下GPT4用莎士比亚的作品，你需要开发软件工程策略来切割数据并提交数据在模型上下文的窗口限制内。Spring AI 项目可以帮助您完成这项任务。   
 
+
+## Structured Output
+## 结构化输出
+The output of AI models traditionally arrives as a `java.lang.String`, even if you ask for the reply to be in JSON. It may be a correct JSON, but it is not a JSON data structure. It is just a string. Also, asking “for JSON” as part of the prompt is not 100% accurate.   
+AI模型的输出传统上以`java.lang.String`形式出现，即使你要求回复是JSON格式。它可能是正确的JSON，但不是一个JSON数据结构。它只是一个字符串。此外，把“JSON”作为提示词的一部分询问也不是完全准确。
