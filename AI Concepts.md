@@ -99,3 +99,6 @@ Also, models are subject to token limits, which restrict the amount of text proc
 For instance, ChatGPT3 has a 4K token limit, while GPT4 offers varying options, such as 8K, 16K, and 32K. Anthropic’s Claude AI model features a 100K token limit, and Meta’s recent research yielded a 1M token limit model.
 例如，ChatGPT3有一个4K令牌限制，而GPT4提供了不同的选项，如8K、16K和32K。Anthropic的Claude AI模型具有100K令牌限制，而Meta最近的研究产生了一个1M令牌限制的模型。
 
+To summarize the collected works of Shakespeare with GPT4, you need to devise software engineering strategies to chop up the data and present the data within the model’s context window limits. The Spring AI project helps you with this task.
+总结一下GPT4用莎士比亚的作品，你需要开发软件工程策略来切割数据并提交数据在模型上下文的窗口限制内。Spring AI 项目可以帮助您完成这项任务。   
+
