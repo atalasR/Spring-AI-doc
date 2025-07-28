@@ -110,3 +110,7 @@ AI模型的输出传统上以`java.lang.String`形式出现，即使你要求回
 
 This intricacy has led to the emergence of a specialized field involving the creation of prompts to yield the intended output, followed by converting the resulting simple string into a usable data structure for application integration.   
 这种复杂性已经导致了一门专门领域的发展，这个领域涉及到创建提示词以产生预期的输出，然后将产生的简单的字符串转换为应用程序集成的可用的数据结构。
+
+The Structured output conversion employs meticulously crafted prompts, often necessitating multiple interactions with the model to achieve the desired formatting.   
+结构化输出转换使用精心设计的提示词，通常需要与模型进行多次交互以实现所需的格式。
+
