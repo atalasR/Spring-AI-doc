@@ -102,3 +102,6 @@ For instance, ChatGPT3 has a 4K token limit, while GPT4 offers varying options, 
 To summarize the collected works of Shakespeare with GPT4, you need to devise software engineering strategies to chop up the data and present the data within the model’s context window limits. The Spring AI project helps you with this task.   
 总结一下GPT4用莎士比亚的作品，你需要开发软件工程策略来切割数据并提交数据在模型上下文的窗口限制内。Spring AI 项目可以帮助您完成这项任务。   
 
+
+This intricacy has led to the emergence of a specialized field involving the creation of prompts to yield the intended output, followed by converting the resulting simple string into a usable data structure for application integration.   
+这种复杂性已经导致了一门专门领域的发展，这个领域涉及到创建提示词以产生预期的输出，然后将产生的简单的字符串转换为应用程序集成的可用的数据结构。
