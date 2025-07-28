@@ -106,10 +106,10 @@ To summarize the collected works of Shakespeare with GPT4, you need to devise so
 ## Structured Output
 ## 结构化输出
 The output of AI models traditionally arrives as a `java.lang.String`, even if you ask for the reply to be in JSON. It may be a correct JSON, but it is not a JSON data structure. It is just a string. Also, asking “for JSON” as part of the prompt is not 100% accurate.   
-AI模型的输出传统上以`java.lang.String`形式出现，即使你要求回复是JSON格式。它可能是正确的JSON，但不是一个JSON数据结构。它只是一个字符串。此外，把“JSON”作为提示词的一部分询问也不是完全准确。   
+AI模型的输出传统上以`java.lang.String`形式出现，即使你要求回复是JSON格式。它可能是正确的JSON，但不是一个JSON数据结构。它只是一个字符串。此外，把“JSON”作为提示词的一部分询问也不是完全准确。
 
-This intricacy has led to the emergence of a specialized field involving the creation of prompts to yield the intended output, followed by converting the resulting simple string into a usable data structure for application integration.   
-这种复杂性已经导致了一门专门领域的发展，这个领域涉及到创建提示词以产生预期的输出，然后将产生的简单的字符串转换为应用程序集成的可用的数据结构。
+The Structured output conversion employs meticulously crafted prompts, often necessitating multiple interactions with the model to achieve the desired formatting.   
+结构化输出转换使用精心设计的提示词，通常需要与模型进行多次交互以实现所需的格式。
 
 The Structured output conversion employs meticulously crafted prompts, often necessitating multiple interactions with the model to achieve the desired formatting.   
 结构化输出转换使用精心设计的提示词，通常需要与模型进行多次交互以实现所需的格式。
